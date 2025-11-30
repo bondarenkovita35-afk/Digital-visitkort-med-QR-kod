@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VS LiteCode Studio – Digitalt visitkort</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="ancient-future">
+    <!-- Фон-переход прошлое/будущее -->
+    <div class="bg-layer bg-gradient"></div>
+    <div class="bg-layer bg-noise"></div>
+    <div class="bg-layer bg-stars"></div>
+
+    <main class="page">
+        <!-- Главная карточка -->
+        <section class="visiting-card" id="card">
+            <!-- Голографическое сияние вокруг карточки -->
+            <div class="card-glow"></div>
+
+            <!-- Шапка с логотипом -->
+            <header class="card-header">
+                <div class="logo-block">
+                    <div class="logo-frame">
+                        <img src="img/logotip.png" alt="VS LiteCode Studio logotyp" class="logo-img" />
+                        <div class="logo-holo"></div>
+                    </div>
+                    <div class="logo-text">
+                        <h1 class="studio-name">VS LiteCode Studio</h1>
+                        <p class="studio-tag">
+                            Webbutvecklare · HTML · CSS · JS · .NET · Stockholm, Sverige
+                        </p>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Основной контент: аватар + кнопки -->
+            <div class="card-body">
+                <!-- Левая колонка: портрет и роль -->
+                <div class="profile-column">
+                    <div class="portrait-frame">
+                        <div class="portrait-holo"></div>
+                        <img src="img/avatar.jpg" alt="Vitalia Sivakova" class="portrait-img" />
+                    </div>
+                    <div class="profile-text">
+                        <h2 class="person-name">Vitalia Sivakova</h2>
+                        <p class="person-role">Webbutvecklare & digitala visitkort</p>
+                        <p class="person-city">Stockholm, Sverige</p>
+                    </div>
+                </div>
+
+                <!-- Правая колонка: текст + кнопки -->
+                <div class="links-column">
+                    <p class="intro-text">
+                        Digitalt visitkort där tidens patina möter framtidens hologram.
+                        Välj hur du vill kontakta mig – klicka på en knapp eller skanna QR-koden.
+                    </p>
+
+                    <div class="primary-buttons">
+                        <a href="https://bondarenkovita35-afk.github.io/vs-litecode-studio/" class="btn btn-main"
+                            target="_blank">
+                            Besök min webbsida
+                        </a>
+
+                        <a href="https://www.fiverr.com/vitafullstack" class="btn btn-accent" target="_blank">
+                            Beställ tjänst på Fiverr
+                        </a>
+                    </div>
+
+                    <div class="secondary-buttons">
+                        <a href="https://www.linkedin.com/in/vitaliia-sivakova-865471187/" class="btn btn-ghost"
+                            target="_blank">
+                            LinkedIn-profil
+                        </a>
+
+                        <a href="https://github.com/bondarenkovita35-afk" class="btn btn-ghost" target="_blank">
+                            GitHub-projekt
+                        </a>
+
+                        <a href="mailto:bondarenkovita35@gmail.com" class="btn btn-ghost">
+                            bondarenkovita35@gmail.com
+                        </a>
+
+                        <button class="btn btn-ghost btn-phone" data-phone="+46729431427">
+                            +46 72 943 14 27
+                            <span class="copy-hint">Klicka för att kopiera</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Нижний блок с QR-кодом -->
+            <footer class="card-footer">
+                <div class="qr-text">
+                    <h3>Beställ via QR-kod</h3>
+                    <p>
+                        Skanna koden med mobilen för att gå direkt till min Fiverr-profil
+                        och beställa en tjänst.
+                    </p>
+                </div>
+                <div class="qr-frame">
+                    <div class="qr-holo"></div>
+                    <img src="img/QR-kod.jpg" alt="QR-kod till Fiverr-profil" class="qr-img" />
+                </div>
+            </footer>
+        </section>
+
+        <p class="small-footer">
+            © 2025 VS LiteCode Studio · Design: Vitalia Sivakova – när dåtid & framtid möts.
+        </p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
